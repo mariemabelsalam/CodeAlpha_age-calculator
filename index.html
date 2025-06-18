@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body class="bg-dark">
+
+
+    <main class="vh-100 text-center my-5">
+        <section class="text-white">
+            <div>
+                <h1 class="d-inline-block">Age</h1>
+                <h1 class="d-inline-block text-red">Calculator</h1>
+            </div>
+            <div class="mt-4">
+                <form class="bg-white shadow-sm  m-auto rounded-4 p-4">
+                    <div class="d-flex align-items-center justify-content-center">
+                        <div class="mb-3 w-50">
+                            <label for="daatee" class="form-label"></label>
+                            <input type="date" class="form-control" id="daatee">
+                        </div>
+                        <div class="ms-2 mt-2">
+                            <button class="btn text-white px-4"> Calculate </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+
+        <div class="mt-4">
+            <p class="text-danger px-2 error fw-bold"></p>
+        </div>
+
+
+        <section class="my-2">
+            <div class="container w-50">
+                <div class="row g-3">
+                    <div class="col-md-3 me-5 ms-4 first">
+                        <div class="bg-white py-1 rounded-3">
+                            <h3 class="mb-0 year"></h3>
+                            <p class="text-secondary">Years</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 me-5 ">
+                        <div class="bg-white py-1 rounded-3">
+                            <h3 class="mb-0 month"></h3>
+                            <p class="text-secondary">Months</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="bg-white py-1 rounded-3">
+                            <h3 class="mb-0 day"></h3>
+                            <p class="text-secondary">Days</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

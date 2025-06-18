@@ -1,0 +1,22 @@
+.text-red {
+  color: #ed5466;
+}
+form {
+    width: 50%;
+}
+.btn {
+  background-color: #ef233c;
+}
+.btn:hover {
+  background-color: #ed5466;
+  transition: all 0.4s;
+}
+
+@media (max-width: 767px) {
+  form {
+    width: 90% !important;
+  }
+  .first {
+    margin-left: 0px !important;
+  }
+}
